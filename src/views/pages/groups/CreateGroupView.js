@@ -38,6 +38,7 @@ import {
   Collapse
 } from "reactstrap";
 
+import CreateGroupPage1 from "views/demo/CreateGroupPage.js"; //added
 
 function CreateGroupPage() {
 
@@ -63,7 +64,8 @@ function CreateGroupPage() {
       >
         <span className="mask bg-gradient-info opacity-8" />
       </div>
-      <span> CreateGroupPage</span>
+      <CreateGroupPage1/> {/* added */}
+      {/* <span> CreateGroupPage</span> */}
       {/* <Container className="mt--6" fluid>
         <span> CreateGroupPage</span>
       </Container> */}

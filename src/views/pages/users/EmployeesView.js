@@ -37,7 +37,7 @@ import {
 import GradientEmptyHeader from "components/Headers/GradientEmptyHeader.js";
 
 import {employeesData as employees } from "mock-data/employees.js";
-
+import Employees from "views/demo/EmployeesPage"; // added
 
 
 
@@ -45,7 +45,8 @@ function EmployeesView(props) {
   
   return (
     <>
-     <span> Employees</span>
+    <Employees/>
+     {/* <span> Employees</span> */}
       {/* <GradientEmptyHeader name="Employees"  />
       <Container className="mt--6" fluid>    
          <span> Employees</span>

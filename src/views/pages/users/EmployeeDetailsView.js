@@ -34,13 +34,14 @@ import {
 
 // core components
 import GradientEmptyHeader from "components/Headers/GradientEmptyHeader.js";
-
+import EmployeeDetailsPage1 from "views/demo/EmployeeDetailsPage"; //added
 function EmployeeDetailsPage(props) {
 
   
   return (
     <>
-      <span> EmployeeDetailsPage</span>
+      <EmployeeDetailsPage1/> {/* added */}
+      {/* <span> EmployeeDetailsPage</span> */}
       {/* <GradientEmptyHeader name="Employees"  />
       <Container className="mt--6" fluid>    
        

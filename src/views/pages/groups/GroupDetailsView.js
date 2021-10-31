@@ -46,14 +46,15 @@ import {
 
 import AddMemberPanel from "./AddMemberPanel.js";
 import GradientEmptyHeader from "components/Headers/GradientEmptyHeader.js";
-
+import GroupDetailsPage1 from "views/demo/GroupDetailsPage.js";
 
 
 function GroupDetailsPage(props) {
 
   return (
     <>
-     <span> GroupDetailsPage</span>
+      <GroupDetailsPage1/>
+     {/* <span> GroupDetailsPage</span> */}
       {/* <GradientEmptyHeader name="Groups"  />
       <Container className="mt--6" fluid>    
         <span> GroupDetailsPage</span>

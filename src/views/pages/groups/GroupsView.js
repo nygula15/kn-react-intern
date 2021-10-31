@@ -35,15 +35,16 @@ import {
 } from "reactstrap";
 // core components
 import SimpleHeader from "components/Headers/SimpleHeader.js";
-
+import GroupsPage1 from "views/demo/GroupsPage";//added
 
 
 
 function GroupsPage(props) {
    
   return (
-    <>     
-      <div> GroupsPage</div>
+    <>
+      <GroupsPage1/>{/* added */}
+      {/* <div> GroupsPage</div> */}
       {/* <SimpleHeader name="Search" parentName="Groups" />
       <Container className="mt--6" fluid>
         <div> GroupsPage</div>

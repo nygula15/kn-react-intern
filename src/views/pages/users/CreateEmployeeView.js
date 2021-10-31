@@ -186,6 +186,7 @@ function CreateEmployeePage(props) {
                         </Button>
                         <Button
                           color="info"
+                          onClick={(e) => props.history.push('/admin/search-employees')}
                         >
                           Back to Search
                         </Button>

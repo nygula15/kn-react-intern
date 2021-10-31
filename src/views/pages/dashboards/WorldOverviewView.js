@@ -23,6 +23,8 @@ import { Card, CardBody, Container, Row } from "reactstrap";
 // core components
 import SimpleHeader from "components/Headers/SimpleHeader.js";
 
+import Vector from "views/demo/WorldOverviewPage";
+
 let mapData = {
   AU: 760,
   BR: 550,
@@ -40,7 +42,7 @@ let mapData = {
 function WorldOverviewView() {
   return (
     <>
-      
+      <Vector />
       {/* <SimpleHeader name="Vector maps" parentName="Maps" />
       <Container className="mt--6" fluid>      
       </Container> */}

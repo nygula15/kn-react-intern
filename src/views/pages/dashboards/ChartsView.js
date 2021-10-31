@@ -24,6 +24,8 @@ import { Card, CardHeader, CardBody, Container, Row, Col } from "reactstrap";
 // core components
 import CardsHeader from "components/Headers/CardsHeader.js";
 
+import ChartsPage from "views/demo/ChartsPage";
+
 import {
   chartOptions,
   parseOptions,
@@ -41,6 +43,7 @@ function ChartsView() {
   }
   return (
     <>
+      <ChartsPage/>
       {/* <CardsHeader name="Charts" parentName="Charts" />
       <Container className="mt--6" fluid>
       
